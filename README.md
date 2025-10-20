@@ -16,12 +16,12 @@ If any step fails, the saga automatically cancels all previously successful book
 
 ## Features
 
-- ✅ **Sequential step execution** with automatic rollback
-- ✅ **Compensation logic** for each saga step
-- ✅ **RabbitMQ integration** for message-based coordination
-- ✅ **RAII resource management** for connection and channel lifecycle
-- ✅ **Exception handling** with proper cleanup
-- ✅ **Extensible design** - easy to add new saga steps
+ **Sequential step execution** with automatic rollback
+ **Compensation logic** for each saga step
+ **RabbitMQ integration** for message-based coordination
+ **RAII resource management** for connection and channel lifecycle
+ **Exception handling** with proper cleanup
+ **Extensible design** - easy to add new saga steps
 
 ## Prerequisites
 
